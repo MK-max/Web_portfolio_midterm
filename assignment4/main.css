@@ -1,0 +1,216 @@
+.Topic{
+    font-family: Ramaraja; 
+    font-size: 50px;
+    text-align: center;
+}
+
+.cinnamon-3-4-5pic-class{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.cinnamon-3-4-5class > div{
+    margin-left: 50px;
+}
+
+#cinnamon-3png{
+    width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#cinnamon-4png{
+    width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#cinnamon-5png{
+    width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#cinnamon-1png{
+	/*margin-top: 100px;
+	margin-left: 10px;*/
+    width: 90%;
+}
+
+h3{
+	font-family: Ramaraja; 
+    font-size: 50px;
+    margin-left: 2%;
+	color: rgb(201, 87, 34);
+}
+
+p{
+    font-family: Ramaraja; 
+    font-size: 27px;
+    margin-left: 3%;
+    color: rgb(168, 99, 66);
+}
+
+span{
+    font-family: Ramaraja; 
+    font-size: 29px;
+    font-weight: bold;
+    color: rgb(201, 87, 34);
+}
+
+.cinnamon-6pic-class{
+    display: flex; 
+    flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#cinnamon-6png{
+    width: 50%;
+}
+
+.instructions
+{
+    font-family: Ramaraja;
+    font-size: 30px;
+	margin-top: 80px;
+}
+
+#cinnamon-2png{
+    width: 70%;
+}
+
+.from{
+	text-align: center;
+}
+/*------------------------------------------------*/ 
+.grid-container {
+	display: grid;
+	grid-template-columns: 30% auto auto 30%;
+	grid-row-gap: 2%;
+	grid-column-gap: 2%;
+}
+
+#header{
+	grid-column: 1 / span 4;	/*ตำแหน่ง / ช่อง*/
+	background-color: rgb(255, 208, 163);
+}
+
+#threepic{
+	grid-column: 1 / span 4;
+	background-color: rgb(255, 208, 163);
+}
+
+#left1{
+	grid-column: 1 / span 1;
+	margin-left: 15%;
+	margin-top: 30%;	
+}
+
+#main1{
+	grid-column: 2 / span 3;
+	margin-right: 2%;	
+	background-color: rgb(255, 243, 233);
+}
+
+#onepic{
+	grid-column: 1 / span 4;
+	background-color: rgb(255, 208, 163);
+}
+
+#main2{
+	grid-column: 1 / span 3;
+	margin-left: 3%;
+	background-color: rgb(255, 243, 233);
+}
+
+#right2{
+	grid-column: 4 / span 1;
+	margin-left: 25%;
+	margin-top: 5%;	
+}
+
+#footer{
+	grid-column: 1 / span 4;
+}
+
+/*------------------------------------------------*/
+@media only screen and (max-width: 800px) {
+	.grid-container{
+        display: grid;
+        grid-template-columns: 30% auto 30%;
+    }
+	#header{
+		grid-column: 1 / span 3;
+	}
+	
+	#threepic{
+		grid-column: 1 / span 3;
+	}
+	
+	#left1{
+		grid-column: 1 / span 3;
+	}
+	
+	#main1{
+		grid-column: 1 / span 3;	
+	}
+	
+	#onepic{
+		grid-column: 1 / span 3;
+	}
+	
+	#main2{
+		grid-column: 1 / span 3;
+	}
+	
+	#right2{
+		grid-column: 1 / span 3;
+	}
+	
+	#footer{
+		grid-column: 1 / span 3;
+	}
+}
+
+/*------------------------------------------------*/
+@media only screen and (max-width:500px) {
+	.grid-container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+	#header{
+		grid-column: 1 / span 1;
+	}
+	
+	#threepic{
+		grid-column: 1 / span 1;
+	}
+	
+	#left1{
+		grid-column: 1 / span 1;
+	}
+	
+	#main1{
+		grid-column: 1 / span 1;	
+	}
+	
+	#onepic{
+		grid-column: 1 / span 1;
+	}
+	
+	#main2{
+		grid-column: 1 / span 1;
+	}
+	
+	#right2{
+		grid-column: 1 / span 1;
+	}
+	
+	#footer{
+		grid-column: 1 / span 1;
+	}
+}
